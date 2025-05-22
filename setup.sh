@@ -264,8 +264,16 @@ pip install -r $SCRIPT_DIR/angypython/requirements.txt
 deactivate
 
 mkdir -p $SCRIPT_DIR/logs
+chmod 777 $SCRIPT_DIR/logs
 mkdir -p $SCRIPT_DIR/logs/handshakes
+chmod 777 $SCRIPT_DIR/handshakes
+mkdir -p $SCRIPT_DIR/logs/scans
+chmod 777 $SCRIPT_DIR/scans
 mkdir -p $SCRIPT_DIR/output
+chmod 777 $SCRIPT_DIR/output
+
+
+
 
 echo "All done, rebooting..."
 sleep 3
