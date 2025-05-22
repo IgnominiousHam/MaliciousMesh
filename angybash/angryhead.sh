@@ -86,7 +86,7 @@ if [ -z "$LOCKED_LOGGING" ]; then
         systemctl stop meshtastic_listener
         $MESHTASTIC_CMD --sendtext "$cleaned_ssid" --port /dev/lora
         echo "$cleaned_ssid" >> "$SSID_HISTORY"
-        gps_data=$(gpspipe -w -n 10 | grep -m 1 '"lat"')
+        gps_data=$(timeout 3 gpspipe -w -n 10 | grep -m 1 '"lat"')
         latitude=$(echo "$gps_data" | grep -oP '"lat":\s*\K[-+]?[0-9]*\.?[0-9]+')
         longitude=$(echo "$gps_data" | grep -oP '"lon":\s*\K[-+]?[0-9]*\.?[0-9]+')
       
