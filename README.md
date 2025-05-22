@@ -32,7 +32,7 @@
 git clone https://github.com/IgnominiousHam/MaliciousMesh.git
 cd MaliciousMesh
 
-# Set up Python environment for waypoint tools
+# Set up environment
 sudo bash ./setup.sh     
 
 # (Optional) Enable systemd services
