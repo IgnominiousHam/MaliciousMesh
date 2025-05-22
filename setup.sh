@@ -266,9 +266,9 @@ deactivate
 mkdir -p $SCRIPT_DIR/logs
 chmod 777 $SCRIPT_DIR/logs
 mkdir -p $SCRIPT_DIR/logs/handshakes
-chmod 777 $SCRIPT_DIR/handshakes
+chmod 777 $SCRIPT_DIR/logs/handshakes
 mkdir -p $SCRIPT_DIR/logs/scans
-chmod 777 $SCRIPT_DIR/scans
+chmod 777 $SCRIPT_DIR/logs/scans
 mkdir -p $SCRIPT_DIR/output
 chmod 777 $SCRIPT_DIR/output
 
