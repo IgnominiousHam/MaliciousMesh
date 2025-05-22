@@ -263,6 +263,10 @@ source $SCRIPT_DIR/angypython/.venv/bin/activate
 pip install -r $SCRIPT_DIR/angypython/requirements.txt
 deactivate
 
+mkdir -p $SCRIPT_DIR/logs
+mkdir -p $SCRIPT_DIR/logs/handshakes
+mkdir -p $SCRIPT_DIR/output
+
 echo "All done, rebooting..."
 sleep 3
 reboot

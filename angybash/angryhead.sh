@@ -33,11 +33,11 @@ sleep 5
 
 SSID_HISTORY="$LOG_DIR/ssid_history.txt"
 WAYPOINT_FILE="$LOG_DIR/waypoint_number.txt"
+mkdir -p "$LOG_DIR/handshakes"
 touch "$SSID_HISTORY"
 touch "$WAYPOINT_FILE"
 touch "$OUTPUT_DIR/priorityoutput.txt"
 touch "$OUTPUT_DIR/headlessoutput_${INTERFACE}.txt"
-mkdir -p "$LOG_DIR/handshakes"
 
 while true; do
   if ip link show "$INTERFACE" | grep -q "state"; then
