@@ -75,7 +75,7 @@ sudo systemctl enable angry2.4@wlan1
 
 `td wlan1 stop` - stop both deauth and target services
 
-`ssid` - retrive hash for given ssid
+`ssid` - retrieve hash for given ssid
 
 ### 🗺 Scans
 
