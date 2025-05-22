@@ -1,6 +1,6 @@
 # 🦆 MaliciousMesh
 
-**MaliciousMesh** is a modular wireless penetration testing and surveying toolkit that integrates [Meshtastic](https://meshtastic.org/) and [AngryOxide](https://github.com/angyroot/angryoxide) to perform advanced Wi-Fi reconnaissance, mesh-based alerting, and passive/active target detection. It also includes wireless survey capabilities using [Kismet](https://kismetwireless.net/).
+**MaliciousMesh** is a modular wireless penetration testing and surveying toolkit that integrates [Meshtastic](https://meshtastic.org/) and [AngryOxide](https://github.com/ragnt/angryoxide) to perform advanced Wi-Fi reconnaissance, mesh-based alerting, and passive/active target detection. It also includes wireless survey capabilities using [Kismet](https://kismetwireless.net/).
 
 > ⚠️ This project is intended **solely for authorized penetration testing and wireless network auditing**. Do not use this software on networks you do not own or have explicit permission to test.
 
