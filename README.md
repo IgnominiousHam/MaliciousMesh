@@ -116,11 +116,3 @@ By using MaliciousMesh, you agree to the following:
     AngryOxide
 
     Kismet
-
-
-
-
----
-
-Would you like a shorter version, a PDF-exportable one, or badges like "Made with Python", "License", etc., at the top?
-
